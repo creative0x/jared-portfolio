@@ -34,7 +34,7 @@ export default function Portfolio() {
         }
       >
         {vidProject1 ? (
-          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black">
+          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
             <video
               src={"/p1.mp4"}
               autoPlay
@@ -44,39 +44,66 @@ export default function Portfolio() {
             />
           </div>
         ) : (
-          ""
+          <div className="absolute top-0 right-[-200%] w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
+            <video
+              src={"/p1.mp4"}
+              autoPlay
+              muted
+              loop
+              className="h-screen w-screen object-cover"
+            />
+          </div>
         )}
         {vidProject2 ? (
-          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black">
+          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
             <video
               src={"/p2.mp4"}
               autoPlay
-              loop
-              className="h-screen object-cover"
-            />
-          </div>
-        ) : (
-          ""
-        )}
-        {vidProject3 ? (
-          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black">
-            <Image src="/truth.jpg" alt="" layout="fill" objectFit="contain" />
-          </div>
-        ) : (
-          ""
-        )}
-        {vidProject4 ? (
-          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black">
-            <video
-              src={"/p4.mp4"}
-              autoPlay
-              loop
               muted
+              loop
               className="h-screen w-screen object-cover"
             />
           </div>
         ) : (
-          ""
+          <div className="absolute top-0 right-[-200%] w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
+            <video
+              src={"/p2.mp4"}
+              autoPlay
+              muted
+              loop
+              className="h-screen w-screen object-cover"
+            />
+          </div>
+        )}
+        {vidProject3 ? (
+          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
+            <Image src="/truth.jpg" alt="" layout="fill" objectFit="contain" />
+          </div>
+        ) : (
+          <div className="absolute top-0 right-[-200%] w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
+            <Image src="/truth.jpg" alt="" layout="fill" objectFit="contain" />
+          </div>
+        )}
+        {vidProject4 ? (
+          <div className="absolute top-0 right-0 w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
+            <video
+              src={"/p4.mp4"}
+              autoPlay
+              muted
+              loop
+              className="h-screen w-screen object-cover"
+            />
+          </div>
+        ) : (
+          <div className="absolute top-0 right-[-200%] w-[60%] h-screen z-20 bg-black ease-in-out duration-500">
+            <video
+              src={"/p4.mp4"}
+              autoPlay
+              muted
+              loop
+              className="h-screen w-screen object-cover"
+            />
+          </div>
         )}
 
         <div className=" absolute top-0 justify-between w-full flex items-center px-40 py-10">
