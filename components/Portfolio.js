@@ -120,7 +120,7 @@ export default function Portfolio() {
             <h3
               onMouseEnter={() => setVidProject1(true)}
               onMouseLeave={() => setVidProject1(false)}
-              className="cursor-pointer text-5xl font-extrabold font-bowlby "
+              className="cursor-pointer text-4xl font-extrabold font-bowlby "
             >
               AMERICAN DIVERSITY
             </h3>
@@ -130,7 +130,7 @@ export default function Portfolio() {
             <h3
               onMouseEnter={() => setVidProject2(true)}
               onMouseLeave={() => setVidProject2(false)}
-              className="cursor-pointer text-5xl font-extrabold font-bowlby transition ease-in duration-200 hover:text-[#00bd00] hover:scale-105"
+              className="cursor-pointer text-4xl font-extrabold font-bowlby transition ease-in duration-200 hover:text-[#00bd00] hover:scale-105"
             >
               I.O.U. 1 SHORT FILM
             </h3>
@@ -141,7 +141,7 @@ export default function Portfolio() {
             <h3
               onMouseEnter={() => setVidProject3(true)}
               onMouseLeave={() => setVidProject3(false)}
-              className="cursor-pointer text-5xl font-extrabold font-bowlby transition ease-in duration-200 hover:text-[#00bd00] hover:scale-105"
+              className="cursor-pointer text-4xl font-extrabold font-bowlby transition ease-in duration-200 hover:text-[#00bd00] hover:scale-105"
             >
               TRUTH NARRATIVE COMMIC
             </h3>
@@ -151,7 +151,7 @@ export default function Portfolio() {
             <h3
               onMouseEnter={() => setVidProject4(true)}
               onMouseLeave={() => setVidProject4(false)}
-              className="cursor-pointer text-5xl font-extrabold font-bowlby transition ease-in duration-200 hover:text-[#00bd00] hover:scale-105"
+              className="cursor-pointer text-4xl font-extrabold font-bowlby transition ease-in duration-200 hover:text-[#00bd00] hover:scale-105"
             >
               ONE SOURCE CREDIT UNION AD
             </h3>
