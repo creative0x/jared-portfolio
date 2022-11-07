@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply m-0 p-0 box-border caret-transparent bg-black text-white scrollbar-hide;
+    @apply m-0 p-0  box-border caret-transparent bg-black text-white scrollbar-hide;
   }
 }
 
