@@ -5,23 +5,11 @@ export default function Skills() {
   return (
     <div className="px-10 max-w-[1200px] mx-auto flex flex-col items-center space-y-32 justify-around my-20 md:my-40 ">
       <div className="max-w-[800px] ">
-        <p
-          initial={{ x: -100 }}
-          whileInView={{
-            x: 0,
-            transition: {
-              ease: "easeInOut",
-              duration: 1,
-            },
-          }}
-          viewport={{ once: true }}
-          className=" font-bowlby text-left text-2xl leading-[3rem]"
-        >
-          I am a freelance screenwriter, producer, and director. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Quis quam necessitatibus
-          aspernatur nam iusto, neque impedit perspiciatis vitae enim officiis
-          eveniet quasi! Odio exercitationem fuga aut, perferendis voluptatibus
-          iusto laudantium?
+        <p className=" font-bowlby text-left text-2xl leading-[3rem]">
+          I am a freelance screenwriter, producer, and director. I've earned a
+          bachelor's degree in journalism from the University of Texas. My short
+          films have been screened at local film competitions including Prison
+          City Film Festival.
         </p>
       </div>
       <div className="space-y-10 md:space-y-4">
@@ -29,9 +17,8 @@ export default function Skills() {
           What I can do:
         </h4>
         <m.ul
-          initial={{ x: 100, opacity: 0 }}
+          initial={{ opacity: 0 }}
           whileInView={{
-            x: 0,
             opacity: 1,
             transition: {
               ease: "easeInOut",

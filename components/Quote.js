@@ -4,7 +4,7 @@ export default function Quote() {
   return (
     <div className="flex justify-center">
       <m.p
-        initial={{ x: -400 }}
+        initial={{ x: -100 }}
         whileInView={{
           x: 0,
           transition: {
