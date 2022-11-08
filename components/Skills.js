@@ -29,9 +29,10 @@ export default function Skills() {
           What I can do:
         </h4>
         <m.ul
-          initial={{ x: 1000 }}
+          initial={{ x: 100, opacity: 0 }}
           whileInView={{
             x: 0,
+            opacity: 1,
             transition: {
               ease: "easeInOut",
               duration: 1,
